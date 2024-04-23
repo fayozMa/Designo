@@ -1,0 +1,134 @@
+.hero-section--about-us h1 {
+  font-family: Jost;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 48px;
+  text-align: left;
+  color: var(--color-white);
+}
+.hero-section--about-us p {
+  font-family: Jost;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  color: var(--color-white);
+  margin-top: 32px;
+}
+.hero-section--about-us {
+  background-color: var(--color-peach);
+  padding-left: 95px;
+  padding-top: 135px;
+  padding-bottom: 135px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  position: relative;
+  padding-right: 82px;
+}
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-section img {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.talent img {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.talent {
+  display: flex;
+  margin-top: 160px;
+}
+.talent--about h2 {
+  font-family: Jost;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 48px;
+  text-align: left;
+  color: var(--color-peach);
+}
+.talent--about p {
+  width: 445px;
+  height: 260px;
+  font-family: Jost;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  color: var(--color-dark-grey);
+}
+.talent--about {
+  padding-left: 96px;
+  padding-top: 154px;
+  padding-right: 96px;
+  padding-bottom: 154px;
+  background-color: #fdf3f0;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.locations {
+  display: flex;
+  gap: 30px;
+  margin-top: 160px;
+}
+.location {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  height: 364px;
+}
+.location img {
+  width: 202px;
+  height: 202px;
+  margin-bottom: 48px;
+}
+.location h3 {
+  font-family: Jost;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 5px;
+  text-align: center;
+  color: var(--color-dark-grey);
+  margin-bottom: 32px;
+}
+.location .btn {
+  background-color: var(--color-peach);
+  color: var(--color-white);
+}
+.deal-section--about h3 {
+  font-family: Jost;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 48px;
+  text-align: left;
+  color: var(--color-peach);
+  margin-bottom: 24px;
+}
+.deal-section--about p {
+  font-family: Jost;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  color: var(--color-dark-grey);
+}
+.deal-section--about{
+    padding: 154px 94px 154px 94px;
+    background-color: #fdf3f0;
+    border-bottom-left-radius:10px;
+    border-top-left-radius:10px
+}
+.deal-section img {
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
+}
+.deal-section{
+    display: flex;
+    margin-top: 160px;
+}

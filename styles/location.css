@@ -1,0 +1,56 @@
+.location {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 32px;
+}
+.about-location{
+  background-color: #FDF3F0  ;
+  padding: 88px 95px;
+  border-radius: 10px;
+}
+.about-location h3 {
+  font-family: Jost;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 48px;
+  text-align: left;
+  color: var(--color-peach);
+  margin-bottom: 24px
+;
+}
+span {
+  font-family: Jost;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: left;
+  color: var(--color-dark-grey);
+}
+p {
+  font-family: Jost;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  color: var(--color-dark-grey);
+}
+img {
+    border-radius: 10px;
+}
+.info {
+    display: flex;
+    gap: 30px;
+}
+.office {
+    width: 255px;
+    height: 78px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+.contact a {
+    color: var(--color-dark-grey);
+}
